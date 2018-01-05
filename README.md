@@ -1,0 +1,2 @@
+# JAMFThings
+Mac Admin Things
