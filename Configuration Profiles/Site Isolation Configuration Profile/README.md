@@ -28,7 +28,6 @@ A configuration profile ensures that all keep the setting enforced even if user 
 
 ### The Configuration Profile
 
-__A configuration profile called “Redirect FileVault keys to JSS” does what the name says.__
 
 - General
     - Name: __Site Per Process Setting__
