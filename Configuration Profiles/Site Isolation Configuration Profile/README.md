@@ -6,11 +6,7 @@
 
 - [The Problem](#the-problem)
 - [The Solution](#the-solution)
-    - [Step One: Configuration Profile](#step-one-configuration-profile)
-    - [Step Two: Smart Group](#step-two-smart-group)
-    - [Step Three: Script](#step-three-script)
-    - [Step Four: Policy](#step-four-policy)
-    - [Follow Through](#follow-through)
+- [The Configuration Profile](#the-configuration-profile)
 
 <!-- /MarkdownTOC -->
 
@@ -30,7 +26,7 @@ __You can use a configuration profile to enable this Chrome Policy that will ena
 A configuration profile ensures that all keep the setting enforced even if user tries to adjust setting.
 
 
-### Configuration Profile
+### The Configuration Profile
 
 __A configuration profile called “Redirect FileVault keys to JSS” does what the name says.__
 
