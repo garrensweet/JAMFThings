@@ -36,7 +36,7 @@ This workflow includes the following:
 
 - Smart Group
     - Create a Smart Group that looks like below
-    https://github.com/zacharysfisher/JAMFThings/blob/master/Security%20Update%20Workflow/SecurityUpdateScreenshot.png
+    ![alt text](https://github.com/zacharysfisher/JAMFThings/blob/master/Security%20Update%20Workflow/SecurityUpdateScreenshot.png "Logo Title Text 1")
 
 - Add a Script
 	- The script in this Repo to JAMF Pro by going to https://jss_url/scripts.html
