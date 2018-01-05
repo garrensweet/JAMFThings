@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><extensionAttribute>
+<displayName>Security Updates Eligible</displayName>
+<description>Extension Attribute to show if Update is Available</description>
+<dataType>string</dataType>
+<scriptContentsMac>#!/bin/sh&#13;
+&#13;
+&#13;
+softwareUpdate=$(softwareupdate -l | grep -m 1 'Security' | awk '{print $2, $3, $4}')&#13;
+&#13;
+if [[ $softwareUpdate == *"Security"* ]];&#13;
+then&#13;
+echo "&lt;result&gt;Security Updates Available&lt;/result&gt;"&#13;
+else&#13;
+echo "&lt;result&gt;No Secuirty Update&lt;/result&gt;"&#13;
+fi</scriptContentsMac>
+<scriptContentsWindows/>
+</extensionAttribute>
